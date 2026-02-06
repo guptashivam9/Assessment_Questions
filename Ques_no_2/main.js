@@ -38,4 +38,4 @@ function minSubString(s,t){
 }
 
 let result = minSubString("ADOBECODEBANC","ABC");
-console.log(result);
+document.getElementById("subString").innerHTML = result;
